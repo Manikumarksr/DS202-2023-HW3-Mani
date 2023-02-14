@@ -1,12 +1,12 @@
 Run the following commands 
-
-git clone https://github.com/cjain7/libdivsufsort.git
-cd libdivsufsort
+'''
+https://github.com/Manikumarksr/DS202-2023-HW3-Mani.git
+cd DS202-2023-HW3-Mani.git
 mkdir build
 cd build
 cmake -DCMAKE_BUILD_TYPE="Release" -DCMAKE_INSTALL_PREFIX=$PWD ..
 make
 ```
 
-You should get `ds202_sample1` and `ds202_sample2` executables in `build/examples` folder.
+You should get `Suffix_a" executable in `build/examples` folder.
 
