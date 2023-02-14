@@ -9,7 +9,7 @@ link_directories("${CMAKE_CURRENT_BINARY_DIR}/../lib")
 ## Compile all example codes, including ds202_sample1.c and ds202_sample2.c
 ## Run a for loop for each C source file
 ## All executables will appear in build/examples directory.
-foreach(src suftest mksary sasearch bwt unbwt ds202_sample1 ds202_sample2)
+foreach(src Suffix_a ds202_sample1 ds202_sample2)
   add_executable(${src} ${src}.c)
   target_link_libraries(${src} divsufsort)
 endforeach(src)
