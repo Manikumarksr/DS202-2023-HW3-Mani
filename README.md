@@ -8,5 +8,5 @@ cmake -DCMAKE_BUILD_TYPE="Release" -DCMAKE_INSTALL_PREFIX=$PWD ..
 make
 ```
 
-You should get `Suffix_a' executable in `build/examples` folder.
+You should get `Suffix_a` executable in `build/examples` folder.
 
