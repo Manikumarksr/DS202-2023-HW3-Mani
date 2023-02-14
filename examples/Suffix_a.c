@@ -20,7 +20,7 @@ clock_t start, end;
     char *content= (char*)malloc(sizeof(char)*size);
     size_t leng = 0;
     ssize_t read;
-    fp = fopen("chm13.chrX_v0.7.fasta", "r");
+    fp = fopen("../chm13.chrX_v0.7.fasta", "r");
 
     int i=0;
     while ((read = getline(&line, &leng, fp)) != -1) {
